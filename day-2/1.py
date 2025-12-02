@@ -20,11 +20,8 @@ def solve():
                 else:
                     continue
 
-        sum = 0
-        for inv in invalids:
-            sum += int(inv)
-
-        print(sum)
+        total = sum(invalids)
+        print(total)
 
 
 if __name__ == "__main__":

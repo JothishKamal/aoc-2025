@@ -24,11 +24,9 @@ def solve():
                 if is_invalid(str(i)):
                     invalids.append(i)
 
-        sum = 0
-        for inv in invalids:
-            sum += int(inv)
+        total = sum(invalids)
 
-        print(sum)
+        print(total)
 
 
 if __name__ == "__main__":
